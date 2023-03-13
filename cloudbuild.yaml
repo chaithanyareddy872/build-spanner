@@ -18,6 +18,8 @@ steps:
       - '$_SERVICE_NAME'
       - '--image'
       - 'us-docker.pkg.dev/$PROJECT_ID/gcr.io/spanner_springboot:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
 options:
   logging: CLOUD_LOGGING_ONLY
 
