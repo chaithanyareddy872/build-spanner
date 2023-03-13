@@ -12,16 +12,7 @@ steps:
   # Deploy container image to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
-    args:
-      - 'run'
-      - 'deploy'
-      - '$_SERVICE_NAME'
-      - '--image'
-      - 'us-docker.pkg.dev/$PROJECT_ID/gcr.io/spanner_springboot:$COMMIT_SHA'
-      - '--region'
-      - 'us-central1'
-      - '--allow-unauthenticated'
+    args: [ 'run', 'deploy', 'springbootspannercr', '--image',  "us-docker.pkg.dev/$PROJECT_ID/gcr.io/spanner_springboot:$COMMIT_SHA" , '--allow-unauthenticated','--port=8080','--region', 'us-central1' ]
+timeout: "1600s"
 options:
   logging: CLOUD_LOGGING_ONLY
-
-images: [us-docker.pkg.dev/$PROJECT_ID/gcr.io/$_SERVICE_NAME:$COMMIT_SHA]
