@@ -5,11 +5,12 @@ import com.google.cloud.spring.data.spanner.core.mapping.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Table(name = "employee")
+@Table(name = "orders")
 @Data
 @AllArgsConstructor
-public class Employee {
+public class Orders {
     @PrimaryKey
-    private String id;
-    private String name;
+    private String order_id;
+    private String order_item;
+
 }

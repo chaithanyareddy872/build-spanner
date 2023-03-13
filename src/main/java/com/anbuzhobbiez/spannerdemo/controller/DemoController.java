@@ -1,6 +1,6 @@
 package com.anbuzhobbiez.spannerdemo.controller;
 
-import com.anbuzhobbiez.spannerdemo.model.Employee;
+import com.anbuzhobbiez.spannerdemo.model.Orders;
 import com.anbuzhobbiez.spannerdemo.repo.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,12 +15,12 @@ public class DemoController {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @GetMapping("/greet/{name}")
-    public String greet(@PathVariable String name){
-        employeeRepository.save(new Employee(
+    @GetMapping("/greet/{orderitem}")
+    public String greet(@PathVariable String orderitem){
+        employeeRepository.save(new Orders(
                 UUID.randomUUID().toString(),
-                name
+                orderitem
         ));
-        return "Hello "+name;
+        return "you have ordered "+orderitem;
     }
 }
