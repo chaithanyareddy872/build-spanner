@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "build-springboot-spanner",
+  "private_key_id": "4bf3cfab748bf2ec58b0fcb1c9633e30967ec28f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBJuqTn2SnI3jD\n1lHPoAEy0yusGmf7jQRZpSAdSws0pLVGvRpfpG1+2U+51Rj18YP9VUnhrbeGY09u\nlxgDqdGeXWMD+uUCLzUACHTrmEiJTHDJpA6iBqqUt1EqOaYp7Zlp+qvp7MYWdC2/\nug91KZ5B3xmBHVhDIilOEaRenf0Vf5vl0mugAfeFjKuRxjsIsIlUnn/fcQwIw5wG\n74n2q6zccSLyTjrTr8eN8myASrSJL5EwTzKpQCNVXIRkKE3M47oHRIf/ze9hp6tk\n7UXNxWvDx3kLKcpqoxy5NoovgPpY0GQZheuKv8ZahP8r6mrKbzeuRGmPxeYA0rct\nEzraRYn1AgMBAAECggEADvf8B2c7oWv8EgSUEANeJxPFnL+UzeJCk0ua9seH+DMz\nMjwkT65aPFGiiQFfqcBnDR+04Ka6Duc3iBebs+hPTKwqPiwi3x23SDKflFos9ZOl\nN6ySuWdLWnLveRaBJFrbwA0TZsb481NbGp0/Jpe3Akiu0mUACqnaf3NEuf7D7DcL\nmhD4haH52JKPAxxDFohsAf7hGYYAtZVJyQHDDWtEVF67+ivzuHH24dAkNXeMEQqQ\nuytWpHqttOKQegAoRK908u1wWIXkBLQGhWrK32FD3Vc+fmccejLIjRt2lU6pZieJ\ninOLR7LTHYZVb44w1YH9dFCiYVVTydJpA0d5ilF9aQKBgQDgJgPQLFv1TUaKlpkY\n6o3nyv9PnNlUwjTfQ5jVpAYkhvgDySFEEWUVhEY2x/vLly970jcWanXigP/ZraU/\nWy/H6GRbWi4zNGExSSVyH500R3qp6MIw0+Js7uvqP8MYr8yjN8uXrgiJ/Q4i6KBb\n9KCwDjTHMandlA+Yw+QRgbrMmQKBgQDcmVLkueh+Q0IuL994lIBQY/ztdltnVpYY\nOmEHtTeoyZXAMOUxgrFrh2sCtZpXu+n1gAeYdrBv0fEG1zFGNTKkqLQzFXfJlo4t\nuTUPSZfhMjmnxhIv8CpZ6jjUrfStcj66upFVOTT0MYoVUnNQu7KdtC0nLCCSUut+\nILYu4TmFvQKBgCO2quDeUICTIWwvdpE7vgRymZ9LtG0GzHnOQWm4yqnDP30K7Nv1\nkY+OFcngr0PPAOfPpKtTpxjByQIb4rpngwNtCaBsi/PoopvBtc+rLdcIlIjB5z70\nY51LrBcUtbcXO5m96BhwyDeENF5nhjVgksG6YbpjNVdyodGLVKldbC/xAoGBAMtk\nTmp3AmaQCs/c8dUSTnBQkF49Fy9jRQZXpSjfK89i9cB7FIaesoirFb4sxH6J0r+4\n6Mfo/upKjkk5VcQevm/U4DiNXaGvP63mqoZK208V6NTIqfIrJFE8xGNLdGILCM1P\nwTnrgeh4WJEqMQpJ1PjUrCEG7Y0cCOaEsJTusgOdAoGAG9DyrlbXVfX/su/Yf61H\nvMiDYaCNvyYhZFFzF/nVmEq5TgpZapfiF5M4nUVCyfalLYCeftHSXLMIlt8EC3iB\nuoNy4mRG6iy0DUVLcb417EzVcZ2tjHUNpZGrHnvWhx5gVPw3qksqawNaOwlrkTlE\nnTNnda8+zF12tiX+JqckVnE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "secreat-manager-key@build-springboot-spanner.iam.gserviceaccount.com",
+  "client_id": "110644023699068284098",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/secreat-manager-key%40build-springboot-spanner.iam.gserviceaccount.com"
+}
