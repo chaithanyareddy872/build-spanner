@@ -12,8 +12,7 @@ import java.util.UUID;
 
 @RestController
 public class DemoController {
-    @Value("${sm://password}")
-    String password;
+
 
     @Autowired
     EmployeeRepository employeeRepository;
@@ -26,8 +25,8 @@ public class DemoController {
         ));
         return "you have ordered "+orderitem;
     }
-    @GetMapping("/password")
-    public String getpassword(){
-        return password;
+    @GetMapping("/")
+    public String greetings(){
+        return "hello";
     }
 }
