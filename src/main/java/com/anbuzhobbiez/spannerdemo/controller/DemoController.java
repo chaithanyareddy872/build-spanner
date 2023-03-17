@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -22,7 +21,7 @@ public class DemoController {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @PostMapping("/greet/{orderitem}")
+    @GetMapping("/greet/{orderitem}")
     public ResponseEntity<?> greet(@PathVariable String orderitem){
         employeeRepository.save(new Orders(
                 UUID.randomUUID().toString(),
