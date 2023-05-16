@@ -21,7 +21,7 @@ public class DemoController {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @PostMapping("/order/{orderitem}")
+    @GetMapping("/order/{orderitem}")
     public ResponseEntity<?> saveitem(@PathVariable String orderitem){
         employeeRepository.save(new Orders(
                 UUID.randomUUID().toString(),
